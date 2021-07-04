@@ -1,0 +1,8 @@
+<!--components/SearchInput/SearchInput.wxml-->
+<view class="search_input">
+  <navigator url="/pages/search/index" open-type="navigate"> 
+    <image class="pic" src="/icons/mag.png" mode="widthFix" ></image>
+    <view class="text">搜索标题或关键字</view>
+  </navigator>
+</view>
+

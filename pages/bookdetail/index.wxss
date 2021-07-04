@@ -1,0 +1,41 @@
+.detail{
+  font-size: 28rpx;
+  line-height: 55rpx;
+  margin-left: 40rpx;
+ 
+}
+#book-img{
+  display: block;
+  width:300rpx;
+  height:350rpx;
+  margin-left: 40rpx;
+  margin:40rpx;
+}
+#NAME{
+  margin-top: 40rpx;
+  font-weight: 600;
+  font-size: 35rpx;
+  margin-bottom: -10rpx;
+}
+#get{
+  color:#fff;
+  background-image:linear-gradient(to right, #6ac894 , #29d3ae);
+  border-radius: 30rpx;
+  height:70rpx;
+  width: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 8rpx;
+}
+#avatar{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.float{
+  height: 150rpx;/*高100的视窗*/
+  display:flex;/*flex布局方法*/
+  align-items: center;/*水平方向居中*/
+  justify-content: left;/*垂直方向分散布局*/
+}

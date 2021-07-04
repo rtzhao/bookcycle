@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="page_index">
+  <view class="index_search">
+    <SearchInput></SearchInput>
+  </view>
+  
+  <view class="index_donate">
+    <navigator url="/pages/donate/index" open-type="navigate" class="index_donate_nav">
+      <button >我要捐书</button>
+    </navigator>
+    <view class="tip">捐赠图书可以获得绿色能量哦</view>
+  </view>
+
+  <view class="index_stuff">
+    <view class="text">最新发布</view>
+    <navigator  url="/pages/bookdetail/index?book_id={{item.id}}"  open-type="navigate"
+     wx:for="{{bookList}}"
+      wx:key="id"
+    >
+
+      <view class="book_detail">
+        <view class="book_detail_text">
+          <view class="book_name">{{item.book_name}}</view>
+          <view class="book_press">{{item.book_press}}</view>
+          <view class="author">{{item.author}}</view>
+          <view class="book_feature">
+            <view class="book_class">{{item.book_class}}</view>
+            <view class="book_wear">{{item.book_wear}}</view>
+          </view>    
+        </view>
+        <view class="book_detail_image">
+          <image src="{{item.book_img}}" mode="widthFix"></image>
+        </view>  
+      </view>
+    </navigator>  
+  </view>
+
+  
+</view>

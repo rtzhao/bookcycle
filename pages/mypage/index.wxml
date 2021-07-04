@@ -1,0 +1,30 @@
+
+<view class="title_up">
+  <image src="{{src}}" id="touxiang"></image>
+  <view wx:if="{{is_login}}" >
+    <text  id="mingcheng">{{name}}</text>
+  </view>
+  <view wx:else >
+    <button  open-type='getUserInfo'  bindgetuserinfo='getMyInfo' bindtap="bingGetOpenID"  id="denglu">请登录</button>
+  </view>
+</view>
+
+
+<block class="mulu">
+  <navigator class="donatebook" url="/pages/donatedate/index" open-type="navigate">
+    <image src="/images/书.png" class="recorder"></image>
+    <text>捐书记录</text>
+    <image src="/images/箭头 (1).png "  class="recorder02" ></image>
+  </navigator>
+  <navigator id="getbook" url="/pages/recivedate/index" open-type="navigate">
+    <image src="/images/书.png" class="recorder"></image>
+    <text>得书记录</text>
+    <image src="/images/箭头 (1).png" class="recorder02"></image>
+  </navigator>
+  <navigator id="greenpower" >
+    <image src="/images/绿叶.png" class="recorder"></image>
+    <text>绿色能量</text>
+    <image src="/images/环保_公益.png" class="recorder02"></image>
+  </navigator>
+  <view id="zhu">更多玩法，敬请期待</view>
+</block>

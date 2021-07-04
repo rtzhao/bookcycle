@@ -1,0 +1,26 @@
+<!--pages/search/index.wxml-->
+<view class="search_row">
+  <input value="{{inpValue}}" placeholder="请输入您要搜索的书目" bindinput="handleInput"> </input>
+  <button bindtap="handleCancel" hidden="{{!isFocus}}">取消</button>
+</view>
+<view class="search_content">
+  <navigator  url="/pages/bookdetail/index?book_id={{item.book_id}}"  open-type="navigate"
+    wx:for="{{books}}"
+    wx:key="id"
+  >
+    <view class="book_detail">
+      <view class="book_detail_text">
+        <view class="book_name">{{item.book_name}}</view>
+        <view class="book_press">{{item.book_press}}</view>
+        <view class="author">{{item.author}}</view>
+        <view class="book_feature">
+          <view class="book_class">{{item.book_class}}</view>
+          <view class="book_wear">{{item.book_wear}}</view>
+        </view>    
+      </view>
+      <view class="book_detail_image">
+        <image src="{{item.book_img}}" mode="widthFix"></image>
+      </view>  
+    </view>
+  </navigator>  
+</view> 

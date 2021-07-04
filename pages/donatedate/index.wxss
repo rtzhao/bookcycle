@@ -1,0 +1,118 @@
+
+#get_books{
+  display:block;
+  background:#42bd55;
+  border-radius: 2px;
+  color:#fff;
+  /* position: absolute; */
+  border-top: 30rpx solid #fff;
+  left:200rpx;
+  right:200rpx;
+  text-align: center;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+/* .books{
+  position: absolute;
+  top:120rpx;
+  left:50rpx;
+  right:50rpx;
+  border: 1px solid #5d5d5d;
+  height:200rpx;
+  border-radius:35rpx;
+  padding:20rpx 40rpx;
+  line-height: 50rpx;
+}
+.left{
+  display:block;
+  width:400rpx;
+  font-size: 30rpx;
+  float: left;
+} */
+.book_title{
+  font-weight: 600;
+  font-size: 40rpx;
+  color:#444;
+}
+.author{
+  color:#555;
+  font-size: 30rpx;
+}
+.math{
+  float: left;
+  display: block;
+  width:120rpx;
+  background:#42bd55;
+  border-radius: 10rpx;
+  color:#fff;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.right{
+  display: block;
+  width:160rpx;
+  height:190rpx;
+  border:2rpx solid #fff;
+  float: left;
+
+}
+.gongshu{
+  width:160rpx;
+  height:200rpx;
+}
+.books02{
+  position: absolute;
+  top:390rpx;
+  left:50rpx;
+  right:50rpx;
+  border: 1px solid #5d5d5d;
+  height:210rpx;
+  border-radius:35rpx;
+  padding:20rpx 40rpx;
+  line-height: 50rpx;
+}
+.books03{
+  position: absolute;
+  top:670rpx;
+  left:50rpx;
+  right:50rpx;
+  border: 1px solid #5d5d5d;
+  height:210rpx;
+  border-radius:35rpx;
+  padding:20rpx 40rpx;
+  line-height: 50rpx;
+}
+.books04{
+  position: absolute;
+  top:950rpx;
+  left:50rpx;
+  right:50rpx;
+  border: 1px solid #5d5d5d;
+  height:210rpx;
+  border-radius:35rpx;
+  padding:20rpx 40rpx;
+  line-height: 50rpx;
+}
+.book_detail{
+  margin: 20rpx 0rpx;
+  padding: 5rpx 20rpx ;
+  display: flex;
+
+  background-color: #fff;
+  /* height: 180rpx; */
+  align-items: center;
+}
+.book_detail_text{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+.book{
+  margin:30rpx 0 10rpx 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(243, 243, 243);
+  color:rgb(243, 243, 243);
+}

@@ -1,0 +1,94 @@
+/* pages/donate/index.wxss */
+page {
+  background-color: #f3f3f3;
+}
+.dn_main {
+  padding: 20rpx;
+}
+.dn_content {
+  background-color: #fff;
+  margin: 20rpx;
+  border-radius: 15rpx;
+
+}
+.scan_code button{
+  letter-spacing: 5rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65rpx;
+  font-size: 28rpx;
+  border-radius: 15rpx;
+  margin: 20rpx;
+  background-color:#33bb30;
+  padding: 9rpx;
+  
+}
+.dn_content textarea {
+  padding: 9rpx;
+}
+.dn_tool {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+}
+.dn_button {
+  margin: 0;
+  width: 90rpx;
+  height: 90rpx;
+  font-size: 60rpx;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:20rpx;
+  margin-top: 20rpx;
+  color: #ccc;
+}
+
+.dn_button view{
+  font-size: 60rpx;
+  margin-bottom: 5rpx;
+}
+
+.dn_tool .up_img_item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.form_btn_wrap {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+.form_btn_wrap button {
+  letter-spacing: 5rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65rpx;
+  font-size: 28rpx;
+  border-radius: 15rpx;
+  margin: 20rpx;
+  background-color:#fff;
+  padding: 9rpx;
+  width: 100%;
+}
+
+.book_name,.book_class,.book_type,.book_wear{
+  border-radius: 15rpx;
+  margin: 20rpx;
+  background-color: #fff;
+  padding: 9rpx;
+}
+
+.dn_alert{
+  display:flex;
+  justify-content:left;
+  align-items: center;
+}
+
+.dn_alert radio{
+  transform:scale(0.8);
+  margin-left:20rpx;
+  
+}

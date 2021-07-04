@@ -1,0 +1,20 @@
+<!--pages/tushuxiangqing/index.wxml-->
+<view  wx:for="{{bookList}}"  wx:key="id">
+  <view class="float">
+    <view><image id="avatar" src="{{item.user_url}}"></image></view>
+    <view class="detail"><text></text>发布者：<text id="username">{{item.user_name}}</text></view>
+  </view>
+  <view class="detail" id="NAME"><text>书名：</text><text id="bookname">{{item.book_name}}</text></view>
+  <view><image id="book-img" src="{{item.book_img}}"></image></view>
+  <view class="detail"><text>作者：</text><text id="author">{{item.author}}</text></view>
+  <view class="detail"><text>出版社：</text><text id="book-press">{{item.book_press}}</text></view>
+  <view class="detail"><text>新旧程度：</text><text id="book-wear">{{item.book_wear}}</text></view>
+  <view class="detail"><text>图书类别：</text><text id="book-class">{{item.book_class}}</text></view>
+  <view class="detail"><text>交易方式：</text><text id="donation-method"></text></view>
+  <view class="detail"><text>留言：</text><text id="content"></text></view>
+  <view class="detail"><text>发布于:</text><text id="book-timestamp"></text></view>
+  
+</view>
+<button id="get">我要得书</button>
+<button>举报</button>
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "UpImg":"../../components/UpImg/UpImg"
+  },
+  "navigationBarTitleText": "捐赠图书"
+}

@@ -1,0 +1,63 @@
+<!--pages/donate/index.wxml-->
+<view class="dn_main">
+    
+    <view class="dn_title">填写信息</view>
+    
+    <view class="scan_code">
+        <button bindtap = "scanCode">扫描图书条形码 一键填写</button>
+    </view>
+        
+    <view class="book_name">
+        <input placeholder="* 图书名" bindinput="handleBookNameInput" value="{{book_name}}"></input>
+    </view>
+
+    <view class="book_class">
+        <input maxlength="15" placeholder="图书分类" bindinput="handleBookClassInput" value="{{book_class}}"></input>
+    </view>
+
+    <view class="book_wear">
+    <picker bindchange="bindPickerChange3" value="{{index3}}" range="{{array3}}">
+        <view class="picker">
+        当前图书新旧程度：{{array3[index3]}}
+        </view>
+    </picker>
+    </view>
+
+    <view class="book_type">
+        <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+            <view class="picker">
+            当前捐书方式：{{array2[index2]}}
+            </view>
+        </picker>
+    </view>
+
+    <view class="dn_content">
+        <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder="备注内容"></textarea>
+        <view class="dn_tool">
+            <button class="dn_button" bindtap="handleChooseImg"><view >+</view></button>
+            <view class="up_img_item"
+                wx:for="{{chooseImgs}}"
+                wx:key="*this"
+                bindtap="handleRemoveImg"
+                data-index="{{index}}"
+                >
+                <UpImg src="{{item}}" ></UpImg>
+            </view>
+        </view>
+    </view>
+    
+    <view class="dn_alert">
+            <label class="radio">
+                <radio value="1" checked="{{check}}" bindtap='radiocon'></radio>
+            </label>
+            <view >我已阅读boockcycle的捐书建议</view>
+    </view>
+
+    <view class="form_btn_wrap">
+        <button bindtap="handleFormSubmit"  form-type="submit" type="default" >  
+        提交图书
+        </button>
+    </view>       
+</view>
+
+

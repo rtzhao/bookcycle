@@ -1,0 +1,111 @@
+/**index.wxss**/
+.page_index{
+  background-color: rgb(243, 243, 243);
+}
+.index_search{
+  display: flex;
+}
+.index_search_img{
+  width: 110rpx;
+}
+
+SearchInput{
+  width: 800rpx;
+}
+
+.index_donate navigator{
+  margin:30rpx 0 10rpx 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(243, 243, 243);
+  color:rgb(243, 243, 243);
+}
+
+.index_donate button{
+  color:#fff;
+  background-image:linear-gradient(to right, #6ac894 , #29d3ae);
+  border-radius: 30rpx;
+  height:70rpx;
+  width: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 8rpx;
+}
+
+.tip{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size:30rpx;
+  color:rgb(121, 121, 121);
+}
+
+.index_stuff{
+  margin:0 20rpx;
+}
+
+.index_stuff .text{
+  font-size: 30rpx;
+}
+
+.book_detail{
+  margin: 20rpx 0rpx;
+  padding: 5rpx 20rpx ;
+  display: flex;
+
+  background-color: #fff;
+  /* height: 180rpx; */
+  align-items: center;
+}
+
+.book_detail_text{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.book_detail_image image{
+  flex:1
+}
+
+.book_name{
+  font-size: 35rpx;
+  letter-spacing: 3rpx;
+}
+
+.book_press,.author{
+  color: rgb(121, 121, 121);
+  letter-spacing: 3rpx;
+}
+
+
+.book_feature {
+  display: flex;
+}
+.book_class{
+  
+  background-color: #6ac894;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.book_wear{
+
+  background-color: #6ac894;
+  border-radius: 10rpx;
+  color: #fff;
+  margin-left: 15rpx;
+  font-size: 30rpx;
+}
+
+
+.book_detail .book_detail_image{
+  display: flex;
+  align-items: center;
+  width: 160rpx;
+}

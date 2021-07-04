@@ -1,0 +1,94 @@
+
+.title_up{
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:150rpx;
+  border-top: 1px solid #000;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 75rpx;
+  padding-left: 120rpx;
+  padding-bottom: 20rpx;
+}
+#touxiang {
+  width:120rpx;
+  height:120rpx;
+  border-radius: 6px;
+  border:15rpx solid #999; 
+  margin-right: 65rpx;
+}
+#mingcheng{
+  vertical-align: middle;
+  margin-bottom: 50rpx;
+  font-weight: 600;
+  font-size: 17pt;
+  color: #444;
+  margin-top: 40rpx;
+}
+.donatebook{
+    margin-top: 250rpx;
+    text-align: center;
+    height:85rpx;
+    padding-top: 16rpx;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 90rpx;
+    margin-top:250rpx;
+    width:570rpx;
+    border-bottom: 1px solid #cfcfcf;
+    background:#efefef;
+    background:rgba(247, 243, 243,0.4);
+}
+#getbook{
+  text-align: center;
+  height:85rpx;
+  padding-top: 16rpx;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 90rpx;
+  width:570rpx;
+  border-bottom: 1px solid #cfcfcf;
+  background:rgba(247, 243, 243,0.4);
+}
+#greenpower{
+  text-align: center;
+  height:85rpx;
+  padding-top: 16rpx;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 90rpx;
+  width:570rpx;
+  border-bottom: 1px solid #cfcfcf;
+  background:#efefef;
+  background:rgba(247, 243, 243,0.4);
+}
+.recorder{
+  width:40rpx;
+  height:40rpx;
+  margin-right: 25rpx;
+  margin-left: 25rpx;
+}
+.recorder02{
+  width:40rpx;
+  height:40rpx;
+  margin-left: 250rpx;
+}
+#zhu{
+  text-align: center;
+  font-size: 12px;
+  color:#777;
+  margin-top: 35rpx;
+}
+#denglu{
+  float: right;
+}

@@ -1,0 +1,20 @@
+<view id="total">
+<view id="get_books">捐书记录</view> 
+  <navigator  calss='book' url="/pages/bookdetail/index?book_id={{item.id}}"  open-type="navigate" wx:for="{{bookList}}" wx:key="id">
+    <view class="book_detail">
+      <view class="book_detail_text">
+        <view class="book_title">{{item.book_name}}</view>
+        <text class="author">{{item.book_press}}</text>
+        <view class="author">{{item.author}}</view>
+        <view>
+        <view class="math">{{item.book_class}}</view>
+        <view class="math">{{item.book_wear}}</view>
+        </view>
+        </view>
+      <view class="right">
+        <image src="{{item.book_img}}" class="gongshu"></image>
+      </view>
+    </view>
+  </navigator>
+</view>
+

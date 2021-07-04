@@ -1,0 +1,19 @@
+/* components/SearchInput/SearchInput.wxss */
+.search_input {
+    height: 90rpx;
+    padding: 10rpx;
+    background-color: rgb(243, 243, 243);
+  }
+  .search_input navigator {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10rpx;
+    color: #666;
+  }
+ 
+  .pic{
+    width: 70rpx;
+  }
